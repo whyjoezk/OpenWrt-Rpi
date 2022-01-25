@@ -286,6 +286,9 @@ jobs:
           $GITHUB_WORKSPACE/$DIY_SH
           $GITHUB_WORKSPACE/scripts/preset-clash-core.sh $CLASH_BINARY_PLATFORM
           $GITHUB_WORKSPACE/scripts/preset-terminal-tools.sh
+          echo "0000000000"
+          cat .config
+          echo "0000000000"
           make defconfig
 
       - name: Download DL Package
